@@ -1,0 +1,21 @@
+_id: req_28e50be36bf94ceaa820a1f412de7ec1
+type: Request
+parentId: wrk_394b21323f2a4646ab6d182f1d9491a5
+modified: 1671063848792
+created: 1671063760181
+url: "{{ _.API_URL }}/notifications/from/{{ _.RECIPIENT_ID }}"
+name: notification from
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671063760181
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

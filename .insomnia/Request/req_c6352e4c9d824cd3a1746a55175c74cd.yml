@@ -1,0 +1,30 @@
+_id: req_c6352e4c9d824cd3a1746a55175c74cd
+type: Request
+parentId: wrk_394b21323f2a4646ab6d182f1d9491a5
+modified: 1671063741269
+created: 1670890256224
+url: "{{ _.API_URL }}/notifications"
+name: create notification
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"recipientId": "{% uuid 'v4' %}",
+    	"content": "Notification content",
+    	"category": "Notification category"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1670890256224
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_d0c34c97864944f0834950e50402544b
+type: Request
+parentId: wrk_394b21323f2a4646ab6d182f1d9491a5
+modified: 1671063678185
+created: 1671063437126
+url: "{{ _.API_URL }}/notifications/{% response 'body',
+  'req_c6352e4c9d824cd3a1746a55175c74cd', 'b64::JC5ub3RpZmljYXRpb24uaWQ=::46b',
+  'no-history', 60 %}/cancel"
+name: cancel notification
+description: ""
+method: PATCH
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671063437126
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

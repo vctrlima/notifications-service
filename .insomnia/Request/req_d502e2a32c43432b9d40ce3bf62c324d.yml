@@ -1,0 +1,21 @@
+_id: req_d502e2a32c43432b9d40ce3bf62c324d
+type: Request
+parentId: wrk_394b21323f2a4646ab6d182f1d9491a5
+modified: 1671063864708
+created: 1671063859973
+url: "{{ _.API_URL }}/notifications/from/{{ _.RECIPIENT_ID }}/count"
+name: count notification from
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1671063598653.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
